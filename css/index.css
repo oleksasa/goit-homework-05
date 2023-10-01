@@ -583,6 +583,7 @@ button {
 
 .input-group {
   position: relative;
+  display: block;
 }
 
 .input-group__icon {
