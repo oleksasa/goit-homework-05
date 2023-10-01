@@ -61,7 +61,9 @@
       <section class="generalsection section">
         <div class="container">
           <h1 class="generaltitle">Effective Solutions for Your Business</h1>
-          <button type="button" class="bluebutton">Order Service</button>
+          <button data-modal-open type="button" class="bluebutton button">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -488,7 +490,97 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <form>
+            <label class="soc-media-item footer-subscribe">
+              <p class="soc-media-item footer-subscribe">Subscribe</p>
+              <input
+                type="text"
+                name="email"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+            </label>
+          </form>
+          <button type="submit" class="form-button button">
+            Subscribe
+            <svg class="footer-telegram" width="24" height="24">
+              <use href="/images/icons.svg#telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
+    <!--------------------Modal window----------------------->
+
+    <div data-modal class="modal-overlay">
+      <div class="modal-container">
+        <button data-modal-close type="button" class="modal-close">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="/images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">
+          Leave your contacts and we will call you back
+        </p>
+        <form name="feedback_form" autocomplete="off">
+          <label class="input-label">
+            <span class="label-text">Name</span>
+            <div class="input-group">
+              <input class="input-group__input" name="userName" />
+              <svg class="input-group__icon" width="18px" height="18px">
+                <use href="/images/icons.svg#person"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="input-label">
+            <span class="label-text">Phone</span>
+            <div class="input-group">
+              <input type="tel" class="input-group__input" name="phone" />
+              <svg class="input-group__icon" width="18px" height="24px">
+                <use href="/images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="input-label">
+            <span class="label-text">Email</span>
+            <div class="input-group">
+              <input type="email" class="input-group__input" name="email" />
+              <svg class="input-group__icon" width="18px" height="24px">
+                <use href="/images/icons.svg#email"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="input-label">
+            <span class="label-text">Comment</span>
+            <textarea
+              name="comment"
+              placeholder="Text input"
+              class="textarea-form"
+            ></textarea>
+          </label>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              class="visually-hidden input-checkbox"
+              name="privacyPolicy"
+              value="privacy-policy"
+            />
+            <div class="checkbox-wrapper">
+              <svg class="checkbox-icon" width="16" height="16">
+                <use href="/images/icons.svg#check"></use>
+              </svg>
+            </div>
+            <span class="label-text privacy-policy__text"
+              >I accept the terms and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a>
+            </span>
+          </label>
+          <button type="submit" class="button send-button">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js" />
   </body>
 </html>
