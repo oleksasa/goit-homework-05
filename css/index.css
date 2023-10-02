@@ -542,7 +542,7 @@ button {
   border-radius: 4px;
   background-color: #fcfcfc;
   max-width: 408px;
-  max-height: 584px;
+  min-height: 584px;
   width: 100%;
   overflow-y: auto;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -597,7 +597,6 @@ button {
 
 .input-group {
   position: relative;
-  display: block;
 }
 
 .input-group__icon {
@@ -667,9 +666,7 @@ button {
   margin-bottom: 8px;
 }
 
-.input-label {
-  display: block;
-}
+
 
 .input-checkbox:checked + div {
   background-color: #404bbf;
