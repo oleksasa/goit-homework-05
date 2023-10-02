@@ -643,7 +643,7 @@ button {
   background-color: transparent;
   resize: none;
   outline: transparent;
-  color: rgba(46, 47, 66, 0.4); 
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .comment-wrapper {
@@ -675,15 +675,14 @@ button {
   margin-bottom: 8px;
 }
 
-
-
 .checkbox-container {
   margin-bottom: 24px;
 }
 
 .checkbox-wrapper {
-  display: inline-flex;
+  justify-content: center;
   align-items: center;
+  display: inline-flex;
   flex-shrink: 0;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -692,13 +691,13 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: transparent; 
+  fill: transparent;
 }
 
 .input-checkbox:checked + .checkbox-label .checkbox-wrapper {
-background-color: #404bbf;
-border: none;
-fill: #F4F4FD;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .privacy-policy {
@@ -715,8 +714,8 @@ fill: #F4F4FD;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: inline-flex;
-    gap: 8px;
-    align-items: center;
+  gap: 8px;
+  align-items: center;
 }
 
 .privacy-policy__text {
@@ -727,5 +726,5 @@ fill: #F4F4FD;
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
-  letter-spacing: 0.04em 
+  letter-spacing: 0.04em;
 }
