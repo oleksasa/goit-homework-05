@@ -466,6 +466,7 @@ button {
 }
 
 .footer-input {
+  color: #ffffff; 
   width: 264px;
   height: 40px; 
   background-color: transparent;
@@ -473,23 +474,21 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 8px 0 8px 16px;
   font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.4em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding-left: 16px; 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
 
 .footer-input::placeholder {
-  color: #ffffff;
+  color: #ffffff; 
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.48px;
 }
 
-.footer-subscribe {
-  margin-bottom: 16px;
-}
+
 
 .form-button {
   display: flex;
@@ -503,13 +502,13 @@ button {
 
 .footer-telegram {
   fill: #ffffff;
+  margin-left: 16px;
 }
 .footer-form {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   gap: 24px;
-  margin-left: 80px;
+ 
 }
 
 .footer-subscribe-wrapper{
