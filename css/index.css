@@ -643,6 +643,7 @@ button {
   background-color: transparent;
   resize: none;
   outline: transparent;
+  color: rgba(46, 47, 66, 0.4); 
 }
 
 .comment-wrapper {
@@ -696,14 +697,10 @@ button {
 }
 
 .input-checkbox:checked + .checkbox-label .checkbox-wrapper {
-background-color: #4D5AE5;
+background-color: #404bbf;
 border: none;
+fill: #F4F4FD;
 }
-
-.input-checkbox:checked + .checkbox-label .checkbox-wrapper .checkbox-icon {
-  fill: #F4F4FD;
-  
-  }
 
 .privacy-policy {
   color: #4d5ae5;
