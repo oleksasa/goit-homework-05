@@ -674,9 +674,7 @@ button {
   margin-bottom: 8px;
 }
 
-.input-checkbox:checked + div {
-  background-color: #404bbf;
-}
+
 
 .checkbox-container {
   margin-bottom: 24px;
@@ -686,8 +684,6 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
-  height: fit-content;
   flex-shrink: 0;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -699,7 +695,15 @@ button {
     fill: transparent; 
 }
 
+.input-checkbox:checked + .checkbox-label .checkbox-wrapper {
+background-color: #4D5AE5;
+border: none;
+}
 
+.input-checkbox:checked + .checkbox-label .checkbox-wrapper .checkbox-icon {
+  fill: #F4F4FD;
+  
+  }
 
 .privacy-policy {
   color: #4d5ae5;
@@ -714,6 +718,9 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: inline-flex;
+    gap: 8px;
+    align-items: center;
 }
 
 .privacy-policy__text {
@@ -724,4 +731,5 @@ button {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  letter-spacing: 0.04em 
 }
