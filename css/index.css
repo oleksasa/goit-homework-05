@@ -684,6 +684,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   width: 16px;
@@ -713,9 +714,6 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
-  gap: 8px;
-  align-items: center;
 }
 
 .privacy-policy__text {
