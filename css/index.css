@@ -79,7 +79,7 @@ button {
 }
 .bottom-logo {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .button {
@@ -502,6 +502,7 @@ button {
   fill: #ffffff;
   margin-left: 16px;
 }
+
 .footer-form {
   display: flex;
   justify-content: center;
@@ -510,6 +511,7 @@ button {
 
 .footer-subscribe-wrapper {
   margin-left: 80px;
+  
 }
 
 /* --------------------------------modal window------------------------------------ */
